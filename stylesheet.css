@@ -1,0 +1,1482 @@
+@font-face {
+  font-family: "techno";
+  src: url(../fonts/Kalnia_Glaze/KalniaGlaze-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+  font-family: test1;
+  src: url(../fonts/Tourney/Tourney-VariableFont_wdth\,wght.ttf);
+
+}
+
+@font-face {
+  font-family: test2;
+  src: url(./fonts/Gluten-VariableFont_slnt\,wght.ttf);
+}
+
+/* ----------------------- */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  /* padding: 16px; */
+  font-size: 16px;
+  border: none;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(128, 0, 128, 0.965);
+  /* min-width: 160px; */
+  box-shadow: 2px 2px 2px hotpink;
+  z-index: 1;
+  color: whitesmoke;
+  text-shadow: 2px 2px black;
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  
+  
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: hotpink; border-radius: 10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body has the purple nebula background on ALL pages  */
+body {
+  background-image: url(./images/Purple_Nebula_07-1024x1024.png);
+  background-position: cover;
+}
+
+h1:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+/* ?------------------------?LOGINMODAL */
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  text-align: center;
+  justify-self: center;
+  border-radius: 8px;
+
+}
+
+/* picture in the login modal "cake" */
+.logoImageModal {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+
+
+
+/*!? The LogIn Modal pop up */
+#modal {
+  /* display: none; Hidden by default */
+  position: fixed;
+  /* Stay in place while user is scrolling */
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed in the background */
+  background-image: linear-gradient(45deg,
+      magenta,
+      rebeccapurple,
+      dodgerblue,
+      green);
+  opacity: 0.90;
+  padding-top: 60px;
+  margin: 0 auto;
+  width: 50vw;
+  margin-top: 20px;
+  text-align: center;
+  /* display: flex; */
+  /* flex-direction: column; */
+  border-radius: 20px;
+}
+
+/*! Login greeting in pop up modal */
+.girlylogingreeting {
+  color: pink;
+  text-emphasis-style: "❤️";
+  text-shadow: 1px 1px purple;
+  font-size: 40px;
+}
+
+
+#loginForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  /* padding:3rem; */
+
+
+
+}
+
+input {
+  width: 25vw;
+}
+
+.Input1 {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  background-color: #da70d6;
+}
+
+/* Remeber Me label and check box */
+#rememberMe {
+  font-size: 25px;
+  font-style: italic;
+  color: plum;
+  text-shadow: 1px 1px black;
+}
+
+#rememberMe:hover {
+  cursor: pointer;
+}
+
+.checkboxInput:hover {
+  cursor: pointer;
+}
+
+
+
+
+/* Login Button on modal */
+.loginBtn {
+  background-color: purple;
+  width: 300px;
+  border-radius: 10px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 1px 1px hotpink;
+  margin-top: 20px;
+  padding: 10px;
+  box-shadow: 2px 2px 2px hotpink;
+}
+
+.loginBtn:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+/* New user button */
+.signUpBtn {
+  color: white;
+  background-color: hotpink;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  box-shadow: 2px 2px 2px wheat;
+}
+
+.signUpBtn:hover {
+  scale: 1.2;
+  cursor: pointer;
+}
+
+/* Sign Up with social Media  */
+.socialmedia {
+  color: white;
+  text-shadow: 1px 1px pink;
+  font-size: 20px;
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+
+}
+
+.socialMediaLogos {
+  width: 50px;
+
+}
+
+
+/* Close Button in Modal */
+
+#closeDialog {
+  color: white;
+  background-color: red;
+  font: 30px;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  /* align-self: self-end; */
+  margin-top: 100px;
+  text-shadow: 1px 1px black;
+}
+
+#closeDialog:hover {
+  cursor: pointer;
+  scale: .8;
+
+}
+
+
+
+
+
+/* ?Main Page */
+
+
+header {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+/* go back button after search */
+.goBack {
+  background-color: hotpink;
+  width: 200px;
+  height: 100px;
+  border-radius: 20px;
+  color: white;
+  font-size: 25px;
+  text-shadow: 2px 2px black;
+  font-style: italic;
+}
+
+.goBack:hover {
+  transform: scale(1.2);
+}
+
+
+
+#noboys {
+  text-decoration: line-through 4px red;
+  /* text-decoration: ; */
+  /* font-size: ; */
+  /* color: erd; */
+  font-style: italic;
+  color: blue;
+  font-size: 40px;
+  text-shadow: 2px 2px rgb(15, 184, 203);
+  
+
+}
+
+form {
+  /* width: 100%; */
+  margin-top: 10px;
+  display: flex;
+
+  justify-content: center;
+
+
+
+
+}
+
+/* button color transition animation */
+
+#loginwrap,
+.loginBtn,
+.signUpBtn {
+  margin-bottom: 20px;
+  padding: 10px;
+  /* font-size: 1rem; */
+  border: none;
+  border-radius: 20px;
+  position: relative;
+  color: white;
+  background: hotpink;
+  /* isolate: isolate; */
+  overflow: clip;
+  z-index: 0;
+
+
+  &:hover {
+    --after-opacity: 1;
+  }
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -2;
+    border-radius: inhert;
+    background-image: radial-gradient(circle at var(--blue-x, 50%) var(--blue-y, 50%),
+        #18346d 5%,
+        transparent 30%),
+      radial-gradient(circle at var(--purple-x, 50%) var(--purple-y, 50%),
+        purple 5%,
+        transparent 30%),
+      radial-gradient(circle at var(--red-x, 50%) var(--red-y, 50%),
+        red 5%,
+        transparent 30%),
+      radial-gradient(circle at var(--orange-x, 50%) var(--orange-y, 50%),
+        orange 5%,
+        transparent 30%),
+      radial-gradient(circle at var(--green-x, 50%) var(--green-y, 50%),
+        green 5%,
+        transparent 30%),
+      radial-gradient(circle at var(--yellow-x, 50%) var(--yellow-y, 50%),
+        yellow 5%,
+        transparent 30%);
+    background-size: 200% 200%;
+    background-repeat: no-repeat;
+    animation: moveGradients 10s linear infinite;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 2px;
+    border-radius: inherit;
+    background: purple;
+    z-index: -1;
+    backdrop-filter: blur(var(--after-blur, 3px));
+    transition: opacity 500ms ease-in-out;
+    opacity: var(--after-opacity, 0);
+  }
+}
+
+@keyframes moveGradients {
+
+  0%,
+  100% {
+    --blue-x: -40%;
+    --blue-y: 35%;
+    --purple-x: 35%;
+    --purple-y: -10%;
+    --red-x: -10%;
+    --red-y: -80%;
+    --orange-x: 50%;
+    --orange-y: 145%;
+    --green-x: 0%;
+    --green-y: 80%;
+    --yellow-x: 35%;
+    --yellow-y: 95%;
+  }
+
+  25% {
+    --blue-x: 30%;
+    --blue-y: -25%;
+    --purple-x: 5%;
+    --purple-y: 40%;
+    --red-x: 45%;
+    --red-y: 150%;
+    --orange-x: -15%;
+    --orange-y: 30%;
+    --green-x: 45%;
+    --green-y: 15%;
+    --yellow-x: -20%;
+    --yellow-y: -40%;
+  }
+
+  50% {
+    --blue-x: 70%;
+    --blue-y: 50%;
+    --purple-x: 50%;
+    --purple-y: 120%;
+    --red-x: 35%;
+    --red-y: -80%;
+    --orange-x: 75%;
+    --orange-y: -75%;
+    --green-x: 85%;
+    --green-y: 100%;
+    --yellow-x: 50%;
+    --yellow-y: -20%;
+  }
+
+  75% {
+    --blue-x: -25%;
+    --blue-y: 10%;
+    --purple-x: 35%;
+    --purple-y: -45%;
+    --red-x: -10%;
+    --red-y: 30%;
+    --orange-x: 20%;
+    --orange-y: -40%;
+    --green-x: -15%;
+    --green-y: 50%;
+    --yellow-x: 45%;
+    --yellow-y: -15%;
+  }
+}
+
+/* ! */
+
+
+
+
+/*! Header background for Marley hair and nails page */
+
+
+/* !login button */
+.login {
+  color: white;
+  font-size: 30px;
+  /* margin-right: 200px; */
+  /* margin-top: 50px; */
+  text-decoration: underline;
+  text-shadow: 1px 1px pink;
+  font-family: test2;
+}
+
+
+.login:hover {
+  color: pink;
+  background-color: palevioletred;
+  border-radius: 10px;
+
+}
+
+
+
+
+/* !Top Navigation */
+/* Navigation Buttons */
+.pageLinks {
+  font-family: test2;
+  font-size: 25px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  text-shadow: 2px 2px rgb(117, 6, 61);
+  text-decoration: underline;
+  font-weight: bolder;
+  
+
+}
+
+.pageLinks:hover {
+  cursor: pointer;
+  scale: .9;
+}
+
+.topnav {
+  width: 100vw;
+  overflow: hidden;
+  background-image: radial-gradient(ellipse at bottom, #c70a13, #f71fef, rgb(108, 108, 232));
+  box-shadow: 2px -4px 5px rgb(211, 192, 255);
+
+
+}
+
+.navlinks {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center;
+  padding: 14px 16px;
+  font-size: 21px;
+  margin-top: 10px;
+  font-family: test2;
+  font-weight: bold;
+  text-shadow: 1px 1px black;
+  text-align: center;
+
+}
+
+.topnav a:hover {
+  background-color: hotpink;
+  color: white;
+  border-radius: 10px;
+  scale: 1.2;
+}
+
+.topnav a.active {
+  background-color: hotpink;
+  color: white;
+  border-radius: 10px;
+}
+
+
+.topnav input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  border-radius: 10px;
+}
+
+.topnav .search-container button {
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.topnav .search-container button:hover {
+  background: pink;
+  border-radius: 10px;
+}
+
+.active {
+  color: rgb(247, 235, 2);
+  text-shadow: 2px 2px hotpink;
+}
+
+#magnifying-glass {
+  width: 40px;
+  background-color: rgba(255, 192, 203, 0.647);
+  border-radius: 5px;
+
+
+
+}
+
+#magnifying-glass:hover {
+  cursor: pointer;
+}
+
+#searchSubmitButton {
+  background-color: transparent;
+  border: none;
+}
+
+/*  giftCArd  Pop Over */
+
+#GIFTCARD, #custService {
+  font-size: 50px;
+
+  background-color: red;
+  font-family: test2;
+  color: yellow;
+  width: fit-content;
+  margin: 0 auto;
+  text-shadow: 2px 2px black;
+  border-radius: 10px;
+  margin-top: 20%;
+
+
+
+}
+
+
+/* !------------------------------------ */
+
+h1 {
+  text-align: center;
+  text-shadow: 2px -2px rgb(242, 10, 242);
+  letter-spacing: 5px;
+  /* padding: .5em; */
+  text-emphasis-style: "❤️";
+  font-family: "test2";
+  font-weight: bold;
+  color: pink;
+  font-size: 80px;
+
+}
+
+
+/*! the container to flex the shopping cart image with the search bar */
+#flexForShoppingCart {}
+
+
+#content {
+  background-color: #da70d6;
+  background-image: radial-gradient(ellipse at top, #c70a13, #f71fef, rgb(108, 108, 232));
+
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 80vw;
+  text-align: center;
+  line-height: 1.3;
+
+
+}
+
+/* !Sales Banner */
+#topDealsBanner {
+  max-width: fit-content;
+  display: flex;
+  justify-self: center;
+  margin-bottom: -400px;
+  margin-top: -100px
+}
+
+/* ? Sales Card Design */
+
+.pics,
+.cards {
+  text-align: center;
+  width: 300px;
+  background-image: radial-gradient(farthest-corner at 40px 40px,
+      #f35 0%,
+      #43e 100%);
+  font-size: 25px;
+  color: gold;
+  text-shadow: 2px 2px black;
+  border-radius: 10px;
+  
+
+
+
+
+}
+
+
+/* pictures on cards */
+.pics {
+  height: 250px;
+  padding: 8px;
+  /* box-shadow: 1px 1px black; */
+
+}
+
+.cards {
+  border-radius: 10px;
+  margin-bottom: 25px;
+  height: 375px;
+  perspective: 1000px;
+  box-shadow: 5px -3px 5px hotpink;
+}
+
+.cards:hover {
+  /* scale: 1.1; */
+  background-color: #f71fef;
+  cursor: grab;
+
+}
+
+
+
+/* font on cards */
+p {
+  font-family: test2;
+  text-shadow: 1px 2x black;
+  margin-top: 5px;
+  font-size: 25px;
+}
+
+.productInfo {
+  color: white;
+  font-size: smaller;
+  text-decoration: none;
+  background-color: #da70d6;
+  border-radius: 10px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding: 2px;
+  box-shadow: 2px 2px 5px hotpink;
+}
+
+.productInfo:hover {
+  color: pink;
+  cursor: pointer;
+  background-color: #f71fef;
+}
+
+#flexForCardBtns {
+  display: flex;
+  flex-direction: column;
+}
+
+/* main container with cards inside */
+main {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+ 
+
+  margin: 0 auto;
+  margin-top: 6em;
+  max-width: 1400px;
+}
+
+#itemInfo {
+  font-size: 20;
+  text-shadow: 1px 2px 3px black;
+  
+}
+
+#buyNow {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: test2;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+#buyNow:hover {
+  cursor: pointer;
+  background-color: rgb(214, 55, 214);
+  color: green;
+  border-radius: 10px;
+}
+
+#myCart {
+  text-decoration: underline;
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+#cart-shopping {
+  width: 30px;
+
+}
+
+#cartItems {
+  color: white;
+  font-size: 25px;
+  text-shadow: 1px 1px black;
+  font-style: italic;
+}
+
+#cart-total {
+  font-size: 25px;
+  color: white;
+  text-shadow: 1px 2px black;
+  display: flex;
+  flex-direction: column;
+}
+
+#removeBtn {
+  padding: 5px;
+  font-size: 16px;
+  background-color: #f35;
+  color: white;
+  border-radius: 10px;
+  text-shadow: 1px 1px black;
+  margin-bottom: 5px;
+}
+
+#removeBtn:hover {
+  cursor: pointer;
+  scale: .9;
+
+}
+
+#shoppingCartDiv {
+  text-align: center;
+}
+
+/* cart img under buy now tab */
+#cartImg {
+  width: 25px;
+  margin: 0 auto;
+  margin-top: 5px;
+}
+
+
+
+
+
+/* on sale sign animation*/
+
+
+@keyframes bounce {
+  from {
+    transform: translateX(20vw);
+  }
+
+  to {
+    transform: translateX(-25vw);
+  }
+}
+
+/* !Daily giirrlly deals banner */
+#onSaleSignContainer {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: px;
+}
+
+#onSaleSign {
+  background: linear-gradient(45deg, rgba(255, 0, 0, 0.75), rgba(255, 166, 0, 0.75), rgba(255, 255, 0, 0.75), rgba(0, 128, 0, 0.75), rgba(0, 0, 255, 0.75),rgba(76, 0, 130, 0.75), rgba(238, 130, 238, 0.75));
+  padding: 1rem;
+  
+  margin: auto;
+  color: white;
+  font-weight: 700;
+  text-shadow: 2px 2px 2px dimgrey;
+  width: 50vw;
+  border-radius: 10px;
+  margin-top: 10px;
+  animation:
+    4s linear 0s infinite alternate rise,
+    4s linear 0s infinite alternate bounce;
+  ;
+  font-family: test2;
+  font-size: 2em;
+  box-shadow: 2px -2px 5px pink;
+}
+
+
+/* !Scroll to Top of Page Button is hidden in right corner of page until user scrolls*/
+#scrollTopBtn {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Fixed/sticky position */
+  bottom: 20px;
+  /* Place the button at the bottom of the page */
+  right: 30px;
+  /* Place the button 30px from the right */
+  z-index: 99;
+  /* Make sure it does not overlap */
+  border: none;
+  /* Remove borders */
+  outline: none;
+  /* Remove outline */
+  background-color: purple;
+  /* Set a background color */
+  color: white;
+  /* Text color */
+  cursor: pointer;
+  /* Add a mouse pointer on hover */
+  padding: 15px;
+  /* Some padding */
+  border-radius: 10px;
+  /* Rounded corners */
+  font-size: 18px;
+  /* Increase font size */
+  width: fit-content;
+}
+
+#scrollTopBtn:hover {
+  background-color: pink;
+
+}
+
+/*?------------------------------------------------------ 
+  /*  BACK OF CARDS item details */
+.flip-card-inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: transform .5s ease-in-out;
+
+}
+
+.flipped {
+  transform: rotateY(180deg) scale(1.3);
+  z-index: 3;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: fit-content;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  color: rgb(255, 255, 255);
+  text-shadow: 1px 2px 3px black;
+  transform: rotateY(180deg);
+  background-color: hotpink;
+  border-radius: 10px;
+  border: 5px solid pink;
+  /* width: 80vw; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.flipPic {
+  width: 50%;
+}
+
+.flipPic:hover {
+  cursor: pointer;
+  scale: 2;
+
+  border-radius: 10px;
+}
+
+/* Add to cart button */
+#addToCart {
+  background-color: rgb(24, 245, 24);
+  font-size: 16px;
+  border-radius: 10px;
+  /* padding: 5px; */
+  text-shadow: 1px 1px white;
+  box-shadow: -1px -1px white;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 8px;
+  box-shadow: 2px 2px 5px pink;
+}
+
+#addToCart:hover {
+  cursor: pointer;
+  scale: 1.1;
+
+}
+
+
+
+
+
+
+
+
+footer {
+  margin-top: 200px;
+  background-image: radial-gradient(ellipse at bottom, #c70a13, #f71fef, rgb(108, 108, 232));
+  text-emphasis-style: "❤️";
+  font-family: test2;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+
+}
+
+/* ?------------------------------------------ MEDIA QUERIES---------------------- */
+
+@media(max-width: 1440px) {
+  header {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px
+  }
+
+  .topnav {
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+
+  #flexForShoppingCart {
+    margin: 0 auto;
+  }
+
+  .login {
+    font-size: 25px;
+  }
+
+  .girly {
+    font-size: 40px;
+
+  }
+
+  main {
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
+
+@media(min-width:1024px) {
+
+
+  .topnav {
+    width: 95vw;
+    margin: 0 auto;
+    border-radius: 10px;
+
+  }
+
+  #main {
+    width: 98vw;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  a.login {
+    display: flex;
+    justify-self: center;
+    font-size: 30px;
+    border-radius: 10px;
+    text-align: center;
+
+  }
+
+  #noboys {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: line-through 2px red;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  .newGirl {
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    align-self: center;
+    margin-right: 20px;
+  }
+
+  #closeDialog {
+    margin-top: 50px;
+    padding: 20px;
+  }
+}
+
+
+
+/*! ------------ */
+@media(max-width:1023px) {
+  .newGirl {
+    color: white;
+    font-size: 25px;
+
+
+
+  }
+
+  .login {
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .Input1 {
+    width: 40vw;
+  }
+
+  #loginwrap {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+
+  .topnav {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  #navflex {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .girly {
+    margin: 0;
+  }
+
+  .login {
+    margin: 0 auto;
+  }
+
+  main {
+    margin-top: 40px;
+  }
+
+  #onSaleSign {
+
+    width: 45vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation:
+      4s linear 0s infinite alternate rise,
+      4s linear 0s infinite alternate bounce;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateX(-5vw);
+    }
+
+    to {
+      transform: translateX(5vw);
+    }
+  }
+
+  #noboys {
+    font-size: 30px;
+    text-align: center;
+    text-decoration: line-through 2px red;
+    margin-top: -10px;
+    margin-bottom: 30px;
+  }
+
+  .topnav a {
+    font-size: 30px;
+  }
+
+  #closeDialog {
+    margin-top: 25px;
+    padding: 10px;
+  }
+
+  .pageLinks {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px black;
+  }
+}
+
+#searchcontainer{
+ display: flex;
+ justify-content: center;
+
+}
+#search {
+  margin: 0 auto;
+  padding: 20px;
+  width: 60vw;
+  background-color: rgba(217, 89, 217, 0.65);
+  font-size: large;
+  font-style: italic;
+  color: white;
+  text-shadow: 1px 1px black;
+  font-size: 20px;
+}
+
+::placeholder {
+  color: white;
+  text-shadow: 1px 2px hotpink;
+  font-size: 20px;
+}
+
+#magnifying-glass {
+  width: 50px;
+
+}
+
+#searchDiv {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+
+@media(max-width:500px) {
+
+  /* login modal */
+  dialog {
+    width: 90vw;
+    height: fit-content;
+  }
+
+  #modal {
+    width: fit-content;
+
+  }
+
+  #checkboxInput {
+    margin: 0 auto;
+  }
+
+  #loginBtn {
+    margin-top: 20px;
+  }
+
+
+  .logoImageModal {
+    width: 75vw;
+
+  }
+
+  .Input1 {
+
+    /* margin: 0 auto; */
+    margin-bottom: 10px;
+    align-self: center;
+    margin-left: 0px;
+    width: 80vw;
+  }
+
+  .loginBtn {
+    margin: 0 auto;
+    width: fit-content;
+
+
+  }
+
+  .signUpBtn {
+    width: fit-content;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+
+  #closeDialog {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  h1 {
+    width: min-content;
+  }
+
+  .checkboxInput {
+    margin-bottom: 20px;
+  }
+}
+
+/* !------------- */
+@media(max-width: 425px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  .topnav {
+    /* width: 100vw; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  /* .pageLinks {} */
+
+  #navflex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input {
+    text-align: center;
+    margin-left: 10%;
+  }
+
+
+
+  #flexForShoppingCart {
+    flex-direction: column;
+  }
+
+  .pageLinks {
+    font-size: 30px;
+  }
+
+  #onSaleSign {
+
+    width: 80vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation:
+      4s linear 0s infinite alternate rise,
+      4s linear 0s infinite alternate bounce;
+  }
+
+  .logoImageModal {
+    width: 250px;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateX(-8vw);
+    }
+
+    to {
+      transform: translateX(8vw);
+    }
+  }
+
+
+
+}
+
+
+
+
+
+@media(max-width:375px) {
+
+  /* Remeber me label on login modal */
+  label {
+    font: 16px;
+  }
+
+  .girly {
+    font-size: 2em;
+  }
+
+  #onSaleSign {
+
+    width: 80vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation:
+      4s linear 0s infinite alternate rise,
+      4s linear 0s infinite alternate bounce;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateX(-8vw);
+    }
+
+    to {
+      transform: translateX(8vw);
+    }
+  }
+
+  .flip-card-back{
+    width: 80%;
+ justify-self: center;
+   
+    
+
+  }
+  .flip-card-inner{
+    width: 80%;
+    /* justify-self: center; */
+    margin: auto
+  }
+  .pics{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+main{
+  width: 300px;
+}
+
+
+
+
+
+
+@media(max-width: 320px) {
+
+
+
+
+
+  button>img {
+    max-width: 100%;
+  }
+
+  .topnav .search-container {
+    float: none;
+  }
+
+  .topnav a,
+  .topnav input[type=text] {
+    float: none;
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 0;
+    margin-top: 10px;
+  }
+
+
+  .topnav input[type=text] {
+    border: 1px solid #ccc;
+  }
+
+  #searchSubmitButton {
+    width: 40px;
+    background-color: transparent;
+  }
+
+  #searchSubmitButton {
+    width: 3em;
+    margin: 0 auto;
+  }
+
+  #onSaleSign {
+
+    width: 80vw;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    animation:
+      4s linear 0s infinite alternate rise,
+      4s linear 0s infinite alternate bounce;
+  }
+
+  form {
+    width: 80vw;
+  }
+
+  @keyframes bounce {
+    from {
+      transform: translateX(-8vw);
+    }
+
+    to {
+      transform: translateX(8vw);
+    }
+  }
+
+
+}
