@@ -1,0 +1,135 @@
+{
+    "products": [
+        {
+            "productID":1,
+            "name": "Galaxy Slippers",
+            "productNumber": "g-1234-0",
+            "color": "blue",
+            "standardCost": 3.50,
+            "price": 13.99,
+            "image": "./images/blueslip.webp",
+            "description": "Magnificant Blue Sparkle slippers (Sizes 0-6) Look like a princess in these glam slippers ",
+            "tags": ["shoes", "slipper", "sparkle"]
+        },
+        {
+            "productID":2,
+            "name": "ButterFly Clips",
+            "productNumber": "g-1234-1",
+            "color": "pink",
+            "standardCost": 0.25,
+            "price": 0.99,
+            "image": "./images/clip2.jpg",
+            "description":" ButterFly hair clips All Different Colors ", "tags": ["hair", "clips", "butterfly", "hair stuff","scrunchies","clips"]
+        },
+        {
+            "productID":3,
+            "name": "Kitty Clips",
+            "productNumber": "g-1234-3",
+            "color": "white/red",
+            "standardCost": 0.25,
+            "price": 2.99,
+            "image": "./images/hellokity.webp",
+            "description": " 2 Cute Hello Kitty clips ",
+            "tags": ["hair", "clips", "butterfly", "hair stuff", "hello kitty", "cat", "kitty"]
+        },
+        {
+            "productID":4,
+            "name":"Chakra Bracelet",
+            "productNumber": "g-1234-3",
+            "color": "blue",
+            "standardCost": 0.50,
+            "price": 1.99,
+            "image": "./images/blueslip.webp",
+            "description": "Chakra Energy beads ",
+            "tags": ["beads", "jewelry", "bracelet","jewelery"]
+        },
+        {
+            "productID":5,
+            "name": "Travel Bag",
+            "productNumber": "g-1234-4",
+            "color": "blue",
+            "standardCost": 1.50,
+            "price": 3.99,
+            "image": "./images/blueslip.webp",
+            "description": "Soft,Plush,made for travel",
+            "tags": ["bags", "backpack", "glovela", "travel", "pink", "bag", "purse"]
+        },
+        {
+            "productID":6,
+            "name": "Custom Purses",
+            "productNumber": "g-1234-5",
+            "color": "",
+            "standardCost": 1.50,
+            "price": 7.99,
+            "image": "./images/namepurse.webp",
+            "description": "Personlize With your Name Pink or Blue",
+            "tags": ["purse","bags", "backpack", "glovela", "travel", "pink", "bag", "purse"]
+        },
+        {
+            "productID":7,
+            "name":  "Giirrlly Scrunchies",
+            "productNumber": "g-1234-6",
+            "color": "blue",
+            "standardCost": 0.25,
+            "price": 0.99,
+            "image": "./images/blueslip.webp",
+            "description": "Hair Scrunchies to secure your hair(buy all 6)",
+            "tags": ["shoes", "slipper", "scrunchies", "hair", "brush", "clips", "hair ties"]
+        },
+        {
+            "productID":8,
+            "name":"Pinguin Purse",
+            "productNumber": "g-1234-7",
+            "color": "blue",
+            "standardCost": 2.00,
+            "price": 4.99,
+            "image": "./images/pinguin.jpg",
+            "description":  "Cute little Birdie purse,Select your color when you order",
+            "tags": ["purse", "pinuin", "bird", "travel", "bag", "backpack", "animal", "pink"]
+        },
+        {
+            "productID":9,
+            "name":  "Golden Deer Purse",
+            "productNumber": "g-1234-8",
+            "color": "blue",
+            "standardCost": 8.99,
+            "price": 17.99,
+            "image": "./images/pinkpurse2.jpg",
+            "description": "Bambie Inspired Purse, faux leather ,",
+            "tags": ["purse", "deer", "animal", "travel", "bag", "backpack", "pink"]
+        },
+        {
+            "productID":10,
+            "name":" Coconut Lotion ",
+            "productNumber": "g-1234-9",
+            "color": "blue",
+            "standardCost": 2.50,
+            "price": 8.00,
+            "image": "./images/babylotion.webp",
+            "description": "Suave coconut Lotion 20oz",
+            "tags": ["skin", "lotion", "dryskin", "face", "body lotion", "baby lotion", "oil"]
+        },
+        {
+            "productID":11,
+            "name": "CupCake Sweater",
+            "productNumber": "hl-1234-10",
+            "color": "blue",
+            "standardCost": 1.50,
+            "price": 6.00,
+            "image": "./images/cupcake_sweater.jpg",
+            "description":"Wool Sweater All sizes",
+            "tags": ["clothes", "shirt", "sweater", "cupcake", "cold", "'candy", "winter"]
+        },
+        {
+            "productID":12,
+            "name":  "Make up set ",
+            "productNumber": "hl-1234-11",
+            "color": "blue",
+            "standardCost": 2.50,
+            "price": 25.99,
+            "image": "./images/makeup8.webp",
+            "description": "Magnificant Blue Sparkle slippers (Sizes 0-6) Look like a princess in these glam slippers ",
+            "tags": ["animal", "cat", "kitten", "purse", "bag", "candy","travel", "pink", "set"]
+        }
+    ]
+}

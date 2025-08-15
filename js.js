@@ -3,7 +3,7 @@ const saleItems = [
 
     {
         id: 1,
-        name: "Galaxy  Slippers", price: 5.99,
+        name: "Galaxy  Slippers", price: 13.99,
         image: "./images/blueslip.webp",
         tags: ["shoes", "slipper", "sparkle"],
         description: "Magnificant Blue Sparkle slippers (Sizes 0-6) Look like a princess in these glam slippers "
@@ -377,7 +377,7 @@ const MaddiesItems = [
         price: 12.99,
         image: "./images/harley.jpg",
         tags: ['pants', 'dress', 'shorts', 'tshirt', 'frozen', 'disney', 'socks', 'dress', 'pink dress', 'sundress', 'romper', 'skirt', 'harley Davidson'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 24,
@@ -385,7 +385,7 @@ const MaddiesItems = [
         price: 16.99,
         image: "./images/princessDress1.webp",
         tags: ['pants', 'dress', 'shorts', 'tshirt', 'frozen', 'disney', 'socks', 'dress', 'pink dress', 'sundress', 'romper', 'princess dress', 'skirt'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 25,
@@ -393,7 +393,7 @@ const MaddiesItems = [
         price: 16.99,
         image: "./images/newyork.webp",
         tags: ['pants', 'dress', 'shorts', 'tshirt', 'frozen', 'disney', 'socks', 'dress', 'pink dress', 'sundress', 'romper', 'princess dress', 'skirt', "tank top", 'sleeper', 'pajamas'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 26,
@@ -401,7 +401,7 @@ const MaddiesItems = [
         price: 10.99,
         image: "./images/heartwatch.jpg",
         tags: ['watch', 'frozen', 'disney', 'dress', 'pink dress', 'sundress', 'romper', 'princess dress', 'skirt', 'pajamas', 'heart', 'jelwery', 'silver'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 27,
@@ -409,7 +409,7 @@ const MaddiesItems = [
         price: 9.99,
         image: "./images/dolphine.jpg",
         tags: ['watch', 'frozen', 'disney', 'dress', 'pink dress', 'sundress', 'romper', 'princess dress', 'skirt', 'pajamas', 'heart', 'jelwery', 'dolphin'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 28,
@@ -417,7 +417,7 @@ const MaddiesItems = [
         price: 9.99,
         image: "./images/dazzle.jpg",
         tags: ['watch', 'frozen', 'disney', 'dress', 'pink dress', 'sundress', 'romper', 'princess dress', 'skirt', 'pajamas', 'heart', 'jelwery', 'dolphin', 'dazzle', 'jewel'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 29,
@@ -425,7 +425,7 @@ const MaddiesItems = [
         price: 13.99,
         image: "./images/ponybox.jpg",
         tags: ['frozen', 'romper', 'princess dress', 'skirt', 'pajamas', 'heart', 'jelwery', 'dolphin', 'dazzle', 'coat', "jacket", 'winter'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 30,
@@ -433,7 +433,7 @@ const MaddiesItems = [
         price: 11.99,
         image: "./images/assortsocks.webp",
         tags: ['frozen', 'romper', 'princess dress', 'skirt', 'pajamas', 'dazzle', 'coat', "jacket", 'winter', 'socks'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
 ]
 const MarleysLux = [
@@ -442,7 +442,7 @@ const MarleysLux = [
         name: "Full hair ", price: 9.99,
         image: "./images/Curly-Kids.jpg",
         tags: ["hair", "curls", "curly kids", "shampoo", "conditioner", "wash", "rinse"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
 
     },
     {
@@ -450,35 +450,35 @@ const MarleysLux = [
         name: "Nail Art Studio", price: 6.99,
         image: "./images/nailkit2.jpg",
         tags: ["nails", 'art', 'kit', 'nailkit', 'presson', 'manicure', 'art', "nails"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 3,
         name: "Mixed Chicks", price: 12.99,
         image: "./images/mixedchickshair.jpg",
         tags: ["hair", "curls", "curly kids", "shampoo", "conditioner", "wash", "rinse", 'mixed chicks', 'mixed', 'hair care', 'mixed girls', 'moisturizer'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 4,
         name: "Toysical Nail Kit ", price: 9.99,
         image: "./images/toysicalNails.webp",
         tags: ["nails", 'art', 'kit', 'nail kit', 'presson', 'manicure', 'art', "nails", "'nail polish'"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 5,
         name: "62Nail Kit", price: 9.99,
         image: "./images/nailKits.webp",
         tags: ["nails", 'art', 'kit', 'nailkit', 'presson', 'manicure', 'art', "nails", "'nail polish'"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 6,
         name: "Shea Shampoo", price: 7.99,
         image: "./images/Shea-Moisture.jpg",
         tags: ["shea butter", 'shampoo', 'conditioner', 'moisturizer'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
 
     {
@@ -486,28 +486,28 @@ const MarleysLux = [
         name: "Giirrlly Scrunchies", price: .99,
         image: "./images/hair-scrunchies.png",
         tags: ["scrunchies", 'hair', "hair ties", "scrunch", 'ponytail', 'hair scrunchies', 'clips', 'hair clips'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 8,
         name: "Grip Clips Combs", price: 1.99,
         image: "./images/comb.jpg",
         tags: ["scrunchies", 'hair', "hair ties", "scrunch", 'ponytail', 'hair scrunchies', ' clips', 'hair clips'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 9,
         name: "Cherry Blossom Clips", price: 0.99,
         image: "./images/Cherryblossom-lp.webp",
         tags: ["scrunchies", 'hair', "hair ties", "scrunch", 'ponytail', 'hair scrunchies', ' clips', 'hair clips', 'cherry', 'mini clips'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 10,
         name: "Mini Clips", price: 2.99,
         image: "./images/clip2.jpg",
         tags: ["scrunchies", 'hair', "hair ties", "scrunch", 'ponytail', 'hair scrunchies', ' clips', 'hair clips', 'mini clips'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 11,
@@ -515,7 +515,7 @@ const MarleysLux = [
         image: "./images/mixedgirlkit.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 12,
@@ -523,7 +523,7 @@ const MarleysLux = [
         image: "./images/mixedchicks.webp",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 13,
@@ -531,7 +531,7 @@ const MarleysLux = [
         image: "./images/blowdryer1.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 14,
@@ -539,7 +539,7 @@ const MarleysLux = [
         image: "./images/hairclipss.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 15,
@@ -547,7 +547,7 @@ const MarleysLux = [
         image: "./images/hairdryer1.webp",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 16,
@@ -555,7 +555,7 @@ const MarleysLux = [
         image: "./images/hairdyer4.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 17,
@@ -563,7 +563,7 @@ const MarleysLux = [
         image: "./images/hairdyer4.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 18,
@@ -571,7 +571,7 @@ const MarleysLux = [
         image: "./images/hairclips.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer', 'hairpens', "hair clips", 'clips'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 19,
@@ -579,7 +579,7 @@ const MarleysLux = [
         image: "./images/shampoo1.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer', 'hairpens', "hair clips", 'clips'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 20,
@@ -587,7 +587,7 @@ const MarleysLux = [
         image: "./images/clipset.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer', 'hairpens', "hair clips", 'clips'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 21,
@@ -595,7 +595,7 @@ const MarleysLux = [
         image: "./images/rhinestone.jpg",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer', 'hairpens', "hair clips", 'clips'],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 22,
@@ -603,7 +603,7 @@ const MarleysLux = [
         image: "./images/hairbows.avif",
         tags: ["mixed", 'hair', 'hair kit', 'wash', 'shampoo', 'rinse', 'gel',
             'mixed girl', 'conditioner', 'blow dryer', 'dryer', 'hair dryer', 'hairpens', "hair clips", 'clips', "bows"],
-            description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
 ]
 const Jazzys = [
@@ -612,7 +612,7 @@ const Jazzys = [
         name: "Marshmellow Gloss", price: 5.00,
         image: "./images/gloss.webp",
         tags: ["gloss", 'marshemellow', 'flavored', 'lip gloss', 'claires', "balm", "flavored gloss"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
 
     },
     {
@@ -620,7 +620,7 @@ const Jazzys = [
         name: " Glam Gloss", price: 5.00,
         image: "./images/glamgloss.webp",
         tags: ["gloss", "lips", 'balm', 'glam gloss',],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
 
     },
     {
@@ -628,42 +628,42 @@ const Jazzys = [
         name: "Custom PressOns", price: 3.00,
         image: "./images/nailcolage4.jpg",
         tags: ['nails', 'press on', 'maniucure', 'polish',],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 4,
         name: "Flavored Gloss", price: 5.25,
         image: "./images/coco.jpg",
         tags: ['flavored', 'cococut', 'lip gloss', 'gloss', 'balm', 'lip gloss', 'lips'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 5,
         name: "Eyebrow wax", price: 7.50,
         image: "./images/magicGirl.webp",
         tags: ['eyes', 'eyebrows', 'wax', 'lashes', 'eyeliner'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 6,
         name: "SunScreen", price: 5.99,
         image: "./images/sunscreen.webp",
         tags: ['sun screen', 'sun', 'sun bum', 'sun block'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 7,
         name: "Eyeliner set", price: 9.99,
         image: "./images/lagirleyliner.jpg",
         tags: ['eyes', 'eyebrows', 'wax', 'lashes', 'eyeliner'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 7,
         name: "Shea Butter", price: 6.99,
         image: "./images/babylotion.webp",
         tags: ['coconut', 'shea', 'butter', 'lotion', 'oil', 'coco butter', "skin"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
 
     {
@@ -671,91 +671,91 @@ const Jazzys = [
         name: "Designer PressOn", price: 12.00,
         image: "./images/nailcollage5.jpg",
         tags: ["nails", 'press on', 'designer nails', 'nail polish'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 9,
         name: "LOLO Lips", price: 4.99,
         image: "./images/lips.webp",
         tags: ['lips', 'gloss', 'lip gloss', 'lip liner'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 10,
         name: "Nail Set", price: 8.99,
         image: "./images/nailcollage1.jpg",
         tags: ['nails', 'manicure', 'nail set',],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 11,
         name: "Lip Balm set ", price: 6.00,
         image: "./images/americanGirlLips.webp",
         tags: ['lip balm', 'gloss', 'lip gloss'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 12,
         name: "Island Lips", price: 5.00,
         image: "./images/islandLips.jpg",
         tags: ['island lips', 'lip gloss', 'lip balm', 'lips'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 13,
         name: "EyeShadow kit", price: 12.00,
         image: "./images/makupkit2.jpg",
         tags: ['island lips', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 14,
         name: "Makeup kit", price: 12.00,
         image: "./images/makeupkit3.jpg",
         tags: ['skintone', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 15,
         name: "Barbie Eyeshadow", price: 11.00,
         image: "./images/BarbieShadow.jpg",
         tags: ['skintone', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush', 'barbie', 'eyes', 'lashes'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 16,
         name: "Beauty Mask", price: 7.99,
         image: "./images/facemask.jpg",
         tags: ['skintone', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush', 'barbie', 'eyes', 'lashes', 'facemask', 'beautymask', 'sleepmask'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 17,
         name: "Skin Cleanse", price: 13.99,
         image: "./images/s-l400.jpg",
         tags: ['skintone', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush', 'barbie', 'eyes', 'lashes', 'facemask', 'beautymask', 'sleepmask', 'skin', 'whips', 'acne'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 18,
         name: "Face Cleanse", price: 10.99,
         image: "./images/GRP-SHOT-4_SQUARE.webp",
         tags: ['skintone', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush', 'barbie', 'eyes', 'lashes', 'facemask', 'beautymask', 'sleepmask', 'skin', 'whips', 'acne'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 19,
         name: "Amercan Cleanse", price: 10.99,
         image: "./images/facewipes.webp",
         tags: ['skintone', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush', 'barbie', 'eyes', 'lashes', 'facemask', 'beautymask', 'sleepmask', 'skin', 'whips', 'acne'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 20,
         name: "Glam Kit ", price: 9.99,
         image: "./images/glamkit.webp",
         tags: ['skintone', 'lip gloss', 'lip balm', 'lips', 'makeup', 'eyeliner', 'eyeshadow', 'blush', 'barbie', 'eyes', 'lashes', 'facemask', 'beautymask', 'sleepmask', 'skin', 'whips', 'acne'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
 
 ]
@@ -765,28 +765,28 @@ const Jewels = [
         name: "Diamond Watch ", price: 12.99,
         image: "./images/watch12.jpg",
         tags: ["watch", "diamond", "time", "gold"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 2,
         name: "Mermaid Necklace ", price: 6.99,
         image: "./images/mermaids.jpg",
         tags: ["watch", "diamond", "time", "gold"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 3,
         name: "Watch/Braclet set ", price: 17.99,
         image: "./images/watchset3.jpg",
         tags: ["watch", "diamond", "time", "gold", "heart",],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 4,
         name: "Glam Set ", price: 15.99,
         image: "./images/rings.jpg",
         tags: ["rings", "diamond", "time", "gold", "heart", "necklace"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
 
     {
@@ -794,137 +794,148 @@ const Jewels = [
         name: "Pinky watch ", price: 8.99,
         image: "./images/watch8.webp",
         tags: ["Watch", "time", "pink", "heart", "necklace"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 6,
         name: "Dazzle Set ", price: 8.99,
         image: "./images/dazzle.jpg",
         tags: ["Watch", "time", "pink", "heart", "necklace", 'Jewels'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 7,
         name: "Keep SafeBox ", price: 9.99,
         image: "./images/keepsafe.jpg",
         tags: ["Watch", "time", "pink", "heart", "necklace", 'Jewels', "keep safe", "box", "jewelery box"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 8,
         name: "Charm Set", price: 16.99,
         image: "./images/charmset.webp",
         tags: ["Watch", "time", "pink", "heart", "necklace", 'Jewels', "keep safe", "box", "jewelery box", "charms"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 9,
         name: "Dolphin charm", price: 16.99,
         image: "./images/dolphin1.jpg",
         tags: ["Watch", "time", "pink", "heart", "necklace", 'Jewels', "keep safe", "box", "jewelery box", "charms", 'dolphin'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 10,
         name: "Dolphin Necklace", price: 15.99,
         image: "./images/dolphin4.webp",
         tags: ["heart", "necklace", 'Jewels', "keep safe", "box", "jewelery box", "charms", 'dolphin', "gold", "silver"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 11,
         name: "Drip Heart", price: 12.99,
         image: "./images/dripheart.avif",
         tags: ["heart", "necklace", 'Jewels', "keep safe", "box", "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 12,
         name: "SeaNecklace", price: 11.99,
         image: "./images/seaShells.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', 'ocean'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 13,
         name: "Bracelet Set", price: 10.99,
         image: "./images/bluewatchset.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', 'ocean', "watch", "bracelet"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 14,
         name: "ButterFly Set", price: 15.99,
         image: "./images/butterflywatchset.jpg",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', 'ocean', "watch", "bracelet"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 15,
         name: "Unicorn BoxSet", price: 15.99,
         image: "./images/ponybox.jpg",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', 'ocean', "watch", "bracelet"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 16,
         name: "Bead Necklace", price: 6.99,
         image: "./images/beadNeclace.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', 'ocean', "watch", "bracelet"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 17,
         name: "Custom Bangels", price: 23.99,
         image: "./images/bracelets.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', 'ocean', "watch", "bracelet"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 17,
         name: "Heart Watchset", price: 10.99,
         image: "./images/heartwatch3.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', "watch", "bracelet"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 18,
         name: "Gold Links", price: 12.99,
         image: "./images/goldlinks.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', "watch", "bracelet"],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 19,
         name: "Pink Watch", price: 19.99,
         image: "./images/ruby.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', "watch", "bracelet", 'ruby', 'gems'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 20,
         name: "Kids Watch", price: 3.99,
         image: "./images/kidswatch.webp",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', "watch", "bracelet", 'ruby', 'gems'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
     {
         id: 21,
         name: "Yaomio set", price: 10.99,
         image: "./images/Yaomiao-3.png",
         tags: ["heart", "necklace", 'Jewels', "jewelery box", "charms", 'dolphin', "gold", "silver", 'ring', 'sea shells', "watch", "bracelet", 'ruby', 'gems'],
-        description:"These products are an example and will be replaced with Giirrllyy Products"
+        description: "These products are an example and will be replaced with Giirrllyy Products"
     },
 
 ]
 // ?==========================================================================
 
+let currentItems = saleItems
 
-
+// example:
+// [
+//  {
+//     id: 2,
+//     name: "ButterFly Clips", price: .99,
+//     image: "./images/clip2.jpg",
+//     tags: ["hair", "clips", "butterfly", "hair stuff"],
+//     description: " ButterFly hair clips All Different Colors ",
+// !    department : "Maddies"
+// },
+// ]
+//! in navigation function...instead of the maps, they would be filters by department
 
 
 function createCard({ id, name, price, image, tags, description }) {
-
     return `
     <article class="cards">
         <div class="flip-card-inner" id="card${id}">
@@ -937,7 +948,7 @@ function createCard({ id, name, price, image, tags, description }) {
                 <div id="flexForCardBtns">
                 <button class="productInfo" onclick="flipIt('card${id}')"> Item Details </button>
 
-                <button id="addToCart" onclick="addToCart(${id})"> Add to Cart</button>
+                <button class="addToCart" onclick="addToCart(${id})"> Add to Cart</button>
 </div>
             </div>
 
@@ -946,7 +957,7 @@ function createCard({ id, name, price, image, tags, description }) {
             <img src="${image}" class="flipPic">
             <p id="itemInfo">${description}</p>
             <p>$${price}</p>
-            <button id="addToCart" onclick="addToCart(${id})"> Add to Cart</button>
+            <button class="addToCart" onclick="addToCart(${id})"> Add to Cart</button>
             <button class="productInfo" onclick="flipIt('card${id}')"> Close </button>
             </div>
         </div>
@@ -960,6 +971,7 @@ function flipIt(cardId) {
     } else {
         card.classList.add('flipped')
     }
+
 }
 
 
@@ -967,7 +979,7 @@ function flipIt(cardId) {
 //! Shopping cart logic
 let cart = [];
 function addToCart(productId) {
-    const product = saleItems.find(p => p.id === productId);
+    const product = currentItems.find(p => p.id === productId);
     console.log(productId);
     const cartItem = cart.find(item => item.id === productId);
     if (cartItem) {
@@ -975,12 +987,31 @@ function addToCart(productId) {
     } else {
         cart.push({ ...product, quantity: 1 });
     }
+
+    //  Adding the amount of items in the cart while its closed 
+  calcItems()
+    
+    
+    
     renderCart();
+    launchProductPic()
 }
 function removeFromCart(productId) {
     cart = cart.filter(item => item.id !== productId);
+    calcItems()
     renderCart();
 }
+
+function calcItems(){
+    const theItems = document.getElementById('itemCount');
+    let totalItems = cart.reduce((acc,cur)=>{
+        acc += cur.quantity
+        return acc
+    },0);
+    console.log(totalItems);
+    theItems.innerText = `${totalItems} items`
+}
+
 function renderCart() {
     const cartItemsDiv = document.getElementById('cart-items');
     cartItemsDiv.innerHTML = '';
@@ -996,6 +1027,8 @@ function renderCart() {
         cartItemsDiv.appendChild(div);
     });
     document.getElementById('cart-total').textContent = `Total: $${total.toFixed(2)}`;
+    console.log(total
+        );
 }
 // Expose functions to global scope
 window.addToCart = addToCart;
@@ -1010,7 +1043,7 @@ renderCart();
 const main = document.getElementById("main")
 
 const cards =
-    saleItems.map((items) => createCard(items)).join('');
+    currentItems.map((items) => createCard(items)).join('');
 main.innerHTML = cards
 
 
@@ -1054,7 +1087,7 @@ searchForm.addEventListener('submit', async (e) => {
 
 
 // ?==================================================================
-// Greeting
+//! Greeting Changes in the login button based on time of day
 const today = new Date();
 let hourNow = today.getHours();
 let greeting
@@ -1100,34 +1133,17 @@ function topFunction() {
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-// Function and Event listener on the item Details button. When clicked the card flips giving user Item details
 
-// const itemDetails = document.querySelectorAll('.productInfo');
-// itemDetails.forEach(btn => {
-// btn.addEventListener('click', (e) => {
-//     const cardId = e.target.parentElement.parentElement.parentElement.id
-//     const cards = document.querySelectorAll('.cards')
-//     console.log(cards);
-//     cards.forEach(card => {
-//         console.log(card.id);
-//         console.log(card.firstElementChild);
-//         if (card.firstElementChild.id === cardId) {
-//             card.firstElementChild.classList.add('flipped')
-//         } else if (card.firstElementChild.classList.contains('flipped')) {
-//             card.firstElementChild.classList.remove('flipped')
-//         }
-//     })
-// })
-// })
 
 
 // ?=====================================================
 const logo = document.querySelector('h1');
 logo.addEventListener('click', () => navigation('Daily Deals'));
 
-//Generate pages
+//!Generate pages with different cards=============
 
 function navigation(destination) {
+
     console.dir(destination);
     document.querySelectorAll('#navflex > button').forEach(btn => {
         if (btn === destination || btn.textContent === destination) {
@@ -1143,24 +1159,29 @@ function navigation(destination) {
     // home page here will be moved to the final else as the fallback!!
     if (destination.textContent === "Daily Deals" || destination === "Daily Deals") {
         main.innerHTML = saleItems.map((items) => createCard(items)).join('');
-        saleSign.textContent = " !We got the DEALS GIRL!! "
+        currentItems = saleItems
+        saleSign.textContent = " !FREE SHIPPING ON THESE DEALS GIRL!! "
     } else if (destination.textContent === "Maddies Fab Fashion") {
         main.innerHTML = MaddiesItems.map((items) => createCard(items)).join('');
-        saleSign.textContent = " !Flashy and Classy Styles! "
+        currentItems = MaddiesItems
+        saleSign.textContent = " ! Flashy and Classy Styles! "
     } else if (destination.textContent.includes("Marleys")) {
         main.innerHTML = MarleysLux.map((items) => createCard(items)).join('')
-        saleSign.textContent = " !Your Fav Hair Products and Glam Nails! "
+        currentItems = MarleysLux
+        saleSign.textContent = " ! Great Hair Products and Glam Nails! "
     } else if (destination.textContent.includes("Jazzy")) {
         main.innerHTML = Jazzys.map((items) => createCard(items)).join('')
-        saleSign.textContent = " ! Your BEAUTIFUL Girl Get Jazzy ! "
+        currentItems = Jazzys
+        saleSign.textContent = " !YOUR BEAUTIFUL! "
     } else if (destination.textContent.includes('Glam Jewelry')) {
         main.innerHTML = Jewels.map((items) => createCard(items)).join('')
-        saleSign.textContent = " !Bling Bling make it Flashy! "
+        currentItems = Jewels
+        saleSign.textContent = " !SHINE BRIGHT LIKE A DIAMOND! "
     }
     else {
         main.innerHTML = saleItems.map((items) => createCard(items)).join('')
     }
-
+    launchProductPic()
 
 
 }
@@ -1313,19 +1334,150 @@ function handleLogIn() {
 }
 ;
 
+// ! CHECK OUT MODAL with recipt of items =====================
 
 
-// Function creating new acct form from  loginmodal 
-// Get the modal
-var modal = document.getElementById('id01');
+function showCheckoutModal() {
+    const modal = document.getElementById('checkout-modal');
+    const itemsDiv = document.getElementById('modal-cart-items');
+    const totalDiv = document.getElementById('modal-cart-total');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function (event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    itemsDiv.innerHTML = "";
+    let total = 0;
+
+    if (cart.length === 0) {
+        itemsDiv.textContent = "Your cart is empty!";
+    } else {
+        cart.forEach(item => {
+            const row = document.createElement('div');
+            row.innerHTML = `
+                <span>${item.name} x${item.quantity}</span>
+                <span style="color:#de699c">$${(item.quantity * item.price).toFixed(2)}</span>
+            `;
+            itemsDiv.appendChild(row);
+            total += item.price * item.quantity;
+            console.log(item.price);
+        });
     }
+
+    totalDiv.textContent = "Total: $" + total.toFixed(2);
+
+    modal.style.display = "flex";
+}
+
+document.getElementById('checkout-btn').onclick = function () {
+    showCheckoutModal();
+};
+
+document.getElementById('close-modal-btn').onclick = function () {
+    document.getElementById('checkout-modal').style.display = "none";
+};
+
+
+
+//!   Confetti when the user clicks checkout ============================
+
+function launchConfetti() {
+    const colors = ['#fa91af', '#bf5ed6', '#fdebd3', '#8a53b6', '#de699c', '#f8c3e0', '#b884c9'];
+    const confettiContainer = document.getElementById('confetti-container');
+    confettiContainer.innerHTML = ""; // Reset confetti
+
+    for (let i = 0; i < 50; i++) {
+        const confetti = document.createElement('div');
+        confetti.classList.add('confetti');
+        confetti.style.left = Math.random() * 100 + "vw";
+        confetti.style.animationDuration = 2.0 + Math.random() * 1 + "s";
+        confetti.style.background = colors[Math.floor(Math.random() * colors.length)];
+        confetti.style.opacity = 0.75 + Math.random() * 0.25;
+        confettiContainer.appendChild(confetti);
+    }
+    setTimeout(() => {
+        confettiContainer.innerHTML = "";
+    }, 2000);
 }
 
 
+document.getElementById('checkout-btn').onclick = function () {
+    showCheckoutModal();
+    launchConfetti();
+};
 
-// function for the create acct 
+
+
+// document.getElementById("addToCart").addEventListener("click", function() {
+//     this.style.animation = "backInDown 5s 1";
+//   });
+
+//   backOutUp
+
+
+// document.querySelector('.pics').addEventListener('click', function() {
+//     this.style.animation = 'backInDown 5s 1';
+//   });
+
+
+// ! Function for the animation of the cards when user clicks addtocart
+function launchProductPic(params) {
+    const buttons = Array.from(document.getElementsByClassName('addToCart'))
+    buttons.forEach((ele) => {
+        ele.addEventListener('click', function (e) {
+            // console.log(e.target.parentElement.parentElement.firstElementChild);
+            let pic
+            console.log(e);
+            if (e.target.parentElement.className === 'flip-card-back') {
+                pic = e.target.parentElement.firstElementChild
+                console.dir(pic);
+            } else {
+                pic = e.target.parentElement.parentElement.firstElementChild
+                console.dir(pic);
+            }
+            if (pic.getAnimations().length == 0) {
+                pic.animate(
+                    [
+                        {
+                            transform: 'scale(0.75) translateY(10%)',
+                            opacity: .9
+                        },
+                        {
+                            transform: 'scale(0.5) translateY(-450%)',
+                            opacity: .5
+                        }
+                    ],
+                    {
+                        id: pic.src,
+                        duration: 1000,
+                        direction: "normal",
+                        easing: "ease-in",
+                        iterations: 1
+                    }
+                )
+            }
+            console.log(pic.getAnimations())
+        })
+    });
+}
+launchProductPic()
+
+// ! Keeping the items in the cart hidden until user clicks view cart, also changing the inner text of the button to close when the cart is open
+const viewCartBtn = document.getElementById('viewCart')
+// console.dir(viewCartBtn)
+viewCartBtn.addEventListener('click', (e) => {
+    const cartFlex = document.getElementById('cartFlex')
+    const innerBtnText = document.getElementById("viewCart")
+    console.dir(cartFlex)
+    if (cartFlex.classList.contains('hidden')) {
+        cartFlex.classList.remove('hidden')
+       
+        if (innerBtnText.innerText ==="View Cart"){
+            innerBtnText.innerText ="Close Cart"
+        }else{
+            innerBtnText.innerText = "View Cart"
+        }
+    } else {
+        cartFlex.classList.add('hidden')
+        innerBtnText.innerText = "View Cart"
+    }
+})
+
+ 
+

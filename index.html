@@ -5,17 +5,25 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href='./stylesheet.css'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+  <link rel="stylesheet" href="/stylesheet.css">
   <title>Giirrllyy.com</title>
 </head>
 
 <body>
-
+  <!--! the link for the page -->
+  <!-- https://persevere-wakulla.github.io/StudentShowCaseGiirrllyy/ -->
   <!--! Page logo -->
   <!-- sticky wrapper div -->
   <header>
 
-    <h1 class="girly">GIIRRLLY.COM</h1>
+    <h1 class="girly">GIIRRLLY.COM </h1>
+    
+    <h2 id="poweredBY">Powered By<br><a href="www.perseverenow.org" id="thelink"> www.perseverenow.org
+    </a> </h2>
+   
+     
     <!-- Special -->
     <div class="dropdown">
       <button class="dropbtn">💝</button>
@@ -30,7 +38,7 @@
       </div>
     </div>
     <div id="sorry"><br>
-      <h2 id="noboys">SORRY BOYS NOT SORRY!</h2>
+      <h2 id="noboys">SORRY NOT SORRY <span id="boys">BOYS!</span></h2>
 
 
     </div>
@@ -57,9 +65,13 @@
             <button type="submit" id="searchSubmitButton" role="button"><img src="./images/magnifying-glass.svg"
                 id="magnifying-glass"></button>
 
+
           </div>
         </form>
+
       </div>
+
+
       <!-- !Top Navigation -->
       <div class="topnav">
         <div id="navflex" class="navlinks">
@@ -80,24 +92,37 @@
             Face &Lips</button>
 
           <button class="pageLinks">Glam Jewelry</button>
+          <button popovertarget="schoolShop"class="pageLinks" role="button">School Shop</button>
+          <div popover id="schoolShop"> !!BACK TO SCHOOL SALES COMING SOON!! WITH FREE SHIPPING ON ALL ITEMS!!</div>
 
           <button popovertarget="GIFTCARD" class="pageLinks">Gift Cards</button>
 
           <div popover id="GIFTCARD">Hey Giirrllyy's We will be Giving Everyone Free Gift Cards for Signing up! </div>
 
 
-          <button popovertarget="custService" class="pageLinks">Customer Service!</button>
-          <div popover id="custService" class="pagelinks">The Best Customer Service on the PLanet! WIll be here soon
-            taking care of ALL your needs!!</div>
+
 
         </div>
 
+        <section id="cart" class="cart">
+          <h2>Your Cart</h2>
+          <div id="cartFlex" class="hidden">
+            <div id="cart-items"></div>
+            <div id="cart-total"></div>
+            <button id="checkout-btn">Checkout</button>
+          </div>
+          <!-- Display of Number of Items added to the Cart -->
+          <div id="itemCountDiv">
+          <span id="itemCount"></span>
+          <button id="viewCart">View Cart</button>
+        </div>
 
+        </section>
 
 
         <!-- ============================= -->
-        <!--  !SHopping cart  -->
-        <div id="shoppingCartDiv">
+        <!--  !Shopping cart  -->
+        <!-- <div id="shoppingCartDiv">
           <div class="container">
             <div class="products" id="products"></div>
           </div>
@@ -108,16 +133,23 @@
             <div class="cart-total" id="cart-total"></div>
           </div>
 
-        </div>
+        </div> -->
+        <!-- ! checkout button -->
+
       </div>
 
 
     </div>
 
+
+
+
     <!-- !sliding on sale sign -->
     <div id="onSaleSignContainer">
 
-      <h2 id="onSaleSign">!!!Giirrllyy Deals For You To Get Ya Shop On!!!<br> 20% Off</h2>
+      <h2 id="onSaleSign">
+        <span id="freeShipping">!!Free Shipping on Daily Deals!!!! </span>
+      </h2>
 
 
     </div>
@@ -129,6 +161,36 @@
     </main>
 
 
+
+
+    <!-- !check out modal -->
+
+
+    <!-- ! test  -->
+    <div id="checkout-modal" class="modal-overlay" style="display:none;">
+      <div class="modal-receipt">
+        <h3>Giirrllyy - Checkout Receipt</h3>
+        <div id="modal-cart-items" class="receipt-items"></div>
+        <hr>
+        <div id="modal-cart-total" class="receipt-total"></div>
+
+        <button id="payNowBtn"> Pay With (ApplePay,Paypal,CashApp,Zell or Credit/Debit card)</button>
+        </br>
+        <button id="close-modal-btn" class="receipt-close">Close</button>
+      </div>
+    </div>
+
+
+
+    <div id="confetti-container"></div>
+
+
+
+
+
+
+
+
     <!-- !Scroll to Top of page Button -->
     <button onclick="topFunction()" id="scrollTopBtn" title="Go to top"> ⬆️Top</button>
 
@@ -138,11 +200,24 @@
     <!-- !-------------- -->
     <footer>
       <h2 class="copyright"> &copy; 2025 Giirrllyy Inc. J.M.M. Enterprises (A Jazmin,Marley, & Madelyn J. Company)</h2>
-
+      <button popovertarget="custService" class="pageLinks">Customer Service!</button>
+      <div popover id="custService" class="pagelinks">The Best Customer Service on the PLanet! WIll be here soon
+        taking care of ALL your needs!!</div>
     </footer>
 
 
     <script src="./js.js"></script>
+    <script>
+      async function fetchdata() {
+        const res = await fetch('http://127.0.0.1:3000')
+        console.log(res);
+        const data = await res.json();
+        console.log(data);
+
+
+      }
+      fetchdata()
+    </script>
 </body>
 
 </html>
